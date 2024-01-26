@@ -1,0 +1,28 @@
+/*
+
+div
+   { 
+     background-color: darksalmon;        
+   }
+   
+*/
+
+.top_01
+      {
+        background-color: bisque;  
+      }
+
+.mid_01
+      {
+        background-color: #df9770;  
+      }
+
+.bigFont
+        {
+          font-size: 15px;
+        }
+
+#special
+        {
+          border-style: dotted;
+        }
