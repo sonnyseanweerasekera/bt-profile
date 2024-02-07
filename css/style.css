@@ -1,28 +1,111 @@
-/*
+/* +++++++++++++++ Global Selector Section +++++++++++++++ */
 
-div
-   { 
-     background-color: darksalmon;        
+*
+ {
+   margin: 0 0 0 0; /* This " * " will select all Margins in page */
+ }
+
+h1,h2
+     {
+      color: #66BFBF;
+     }
+
+ h1
+   {
+     padding-top: 80px ;
+     margin-bottom: 20px;
+     font-size: 3.5rem;
+     font-family: 'sacramento', cursive;
    }
-   
-*/
 
-.top_01
-      {
-        background-color: bisque;  
-      }
+ h2
+   {  
+     font-size: 2.5rem;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 800;     
+   }   
+
+/* +++++++++++++++ Top Section Selector +++++++++++++++ */
+
+.topSec
+       { 
+         background-color: #f6b19a;        
+         text-align: center;
+         position: relative;
+       }
+
+.web
+    {
+      text-decoration: underline;
+    }
+
+.topCloud
+        {
+          position: absolute;
+          top: 50px;
+          right: 200px;
+        }
+
+.bottomCloud
+            {
+              position: absolute;
+              bottom: 150px;
+              left: 200px; 
+            }
+
+
+
+/* +++++++++++++++ Mid Section Selector +++++++++++++++  */
 
 .mid_01
       {
-        background-color: #df9770;  
+        /* background-color: #eba650; */
+        text-align: center;  
+        margin: 80px 0 80px 0; /*top right bottom left*/
       }
 
-.bigFont
-        {
-          font-size: 15px;
-        }
+.mid_01 h2
+          {
+            margin: 20px 0 20px 0;
+          }
 
-#special
+.profile-img
+            {
+              width: 15%;
+              border-radius: 100%;
+            }
+
+.profile-info
+             {
+              width: 30%;
+              margin: 0 auto 0 auto;              
+             }
+
+p
+ {
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+ }
+
+hr
+  {
+    margin: 30px auto 30px auto;
+    border: none;
+    border-top: 5px dotted #2685de;
+    width: 5%;
+  }
+
+/*
+
+.bot_01
+      {
+        background-color: #d9e25b;  
+      }
+
+ #special
         {
-          border-style: dotted;
-        }
+          background-color: #b58b74;
+        } 
+        
+*/ 
