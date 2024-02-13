@@ -1,111 +1,196 @@
 /* +++++++++++++++ Global Selector Section +++++++++++++++ */
 
 *
- {
-   margin: 0 0 0 0; /* This " * " will select all Margins in page */
- }
+{
+  margin: 0 0 0 0; /* This " * " will select all Margins in page */
+}
 
 h1,h2
-     {
-      color: #66BFBF;
-     }
+{
+  color: #11999E;
+}
 
- h1
-   {
-     padding-top: 80px ;
-     margin-bottom: 20px;
-     font-size: 3.5rem;
-     font-family: 'sacramento', cursive;
-   }
+h1
+{
+  padding-top: 80px ;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  font-family: 'sacramento', cursive;
+}
 
- h2
-   {  
-     font-size: 2.5rem;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: 800;     
-   }   
+h2
+{  
+  font-size: 2.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;     
+}
+   
+h3
+{
+  font-size: 1.2rem;
+  font-family: 'montserrat', sans-serif;
+  margin-bottom: 15px;
+  color: #11999E;
+ }
+
+p
+{
+  line-height: 1.5;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+} 
 
 /* +++++++++++++++ Top Section Selector +++++++++++++++ */
 
 .topSec
-       { 
-         background-color: #f6b19a;        
-         text-align: center;
-         position: relative;
-       }
+{ 
+  background-color: yellow; /*#f6b19a*/
+  text-align: center;
+  position: relative;
+}
 
 .web
-    {
-      text-decoration: underline;
-    }
+{
+  text-decoration: underline;
+}
 
 .topCloud
-        {
-          position: absolute;
-          top: 50px;
-          right: 200px;
-        }
+{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
 
 .bottomCloud
-            {
-              position: absolute;
-              bottom: 150px;
-              left: 200px; 
-            }
+{
+  position: absolute;
+  bottom: 150px;
+  left: 100px; 
+}
 
 
 
 /* +++++++++++++++ Mid Section Selector +++++++++++++++  */
 
-.mid_01
-      {
-        /* background-color: #eba650; */
-        text-align: center;  
-        margin: 80px 0 80px 0; /*top right bottom left*/
-      }
-
-.mid_01 h2
-          {
-            margin: 20px 0 20px 0;
-          }
+.midSec
+{
+  /* background-color: #eba650; */
+  text-align: center;  
+  margin: 80px 0 80px 0; /*top right bottom left*/
+}
 
 .profile-img
-            {
-              width: 15%;
-              border-radius: 100%;
-            }
+{
+  width: 15%;
+  border-radius: 50%;
+}
+
+.midSec h2
+{
+  margin: 20px 0 20px 0;
+}
 
 .profile-info
-             {
-              width: 30%;
-              margin: 0 auto 0 auto;              
-             }
+{
+  width: 50%;
+  margin: 0 auto 0 auto;              
+}
 
-p
- {
-  line-height: 1.5;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
- }
+.skills
+{
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+.skill-text
+{
+  /* background-color: grey; */
+  margin: 30px 0 30px 0;
+  text-align: left;
+}
+
+.skill-text img
+{
+  width: 20%;
+  border-radius: 100%;
+}
+
+.compImg
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.chiliImg
+{
+  float: right;
+  margin-left: 30px;
+}
+
+.clear-fix
+{
+  clear: both;
+}
+
+.cta p
+{
+  width: 50%;
+  margin: 40px auto 40px auto;
+}
+
+.btn
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'montserrat', sans-serif;
+  background-color: #2685de;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  /* background-image: linear-gradient(to bottom, #f89cff, #ae06eb); */
+}
+
+.btn:hover
+{
+  /* background-color: #5f20b0; */
+  background-image: linear-gradient(to bottom, #f89cff, #ae06eb);
+}
 
 hr
-  {
-    margin: 30px auto 30px auto;
-    border: none;
-    border-top: 5px dotted #2685de;
-    width: 5%;
-  }
+{
+  margin: 30px auto 30px auto;
+  border: none;
+  border-top: 5px dotted #2685de;
+  width: 5%;
+}
 
-/*
+/* +++++++++++++++ Bottom Section Selector +++++++++++++++  */
 
-.bot_01
-      {
-        background-color: #d9e25b;  
-      }
+.bottomSec
+{
+  background-color: #f2ba4a;
+  padding: 50px 0 50px 0; 
+  text-align: center;  
+}
 
- #special
-        {
-          background-color: #b58b74;
-        } 
-        
-*/ 
+.bottomSec a
+{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px 0 10px;  
+}
+
+.bottomSec a:hover
+{
+  color: #fa0505;
+}
+
+.bottomSec p
+{
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 30px 0 0 0;
+}
+
+ 
